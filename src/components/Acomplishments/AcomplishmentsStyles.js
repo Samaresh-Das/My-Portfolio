@@ -27,18 +27,35 @@ export const Box = styled.div`
   border-radius: 12px;
   height: 144px;
   padding: 24px;
+  transition: 0.5s;
+  &:hover {
+    height: 154px;
+    width: 300px;
+  }
   @media ${(props) => props.theme.breakpoints.lg} {
     height: 210px;
+    &:hover {
+      height: 210px;
+      width: auto;
+    }
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
     height: 135px;
     padding: 16px;
+    &:hover {
+      height: 135px;
+      width: auto;
+    }
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     height: 110px;
     padding: 12px;
+    &:hover {
+      height: 110px;
+      width: auto;
+    }
 
     &:nth-child(2n) {
       grid-row: 2;
