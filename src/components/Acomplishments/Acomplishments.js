@@ -59,12 +59,12 @@ const Acomplishments = () => (
         </Box>
       </a>
       <a
-        href="https://coursera.org/share/f0dca78bfcd9d7a905d1c61fd0e67f34"
+        href="https://coursera.org/share/7fade6cc4e301ae5be7dd793e771ea49"
         target="_blank"
       >
         <Box>
           <BoxNum size="20px">
-            <InternshipHead>AWS Cloud Technical Essentials</InternshipHead>
+            <InternshipHead>DevOps on AWS</InternshipHead>
           </BoxNum>
         </Box>
       </a>
