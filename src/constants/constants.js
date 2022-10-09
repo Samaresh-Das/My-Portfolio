@@ -10,6 +10,16 @@ export const projects = [
     id: 0,
   },
   {
+    title: "E-commerce",
+    description:
+      "A simple e-commerce page with some items listed from dummy data and cart functionality.",
+    image: "/images/5.png",
+    tags: ["React/Redux", "React-Router", "React-Icons", "Bootstrap", "CSS"],
+    code: "https://github.com/Samaresh-Das/eccomerce-page.git",
+    live: "https://eccomerce-site.netlify.app/",
+    id: 1,
+  },
+  {
     title: "Bank Website",
     description:
       "A static website built using React Js and Tailwind CSS using modern UI/UX design",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS"],
     code: "https://github.com/Samaresh-Das/Bank-React.git",
     live: "https://sam-dev-bank.pages.dev/",
-    id: 1,
+    id: 2,
   },
   {
     title: "React To-Do List",
@@ -27,7 +37,7 @@ export const projects = [
     tags: ["React Js"],
     code: "https://github.com/Samaresh-Das/React-Todo-list.git",
     live: "https://react-todo-list-dlh.pages.dev/",
-    id: 2,
+    id: 3,
   },
   {
     title: "TMDB Movie site",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JS"],
     code: "https://github.com/Samaresh-Das/TMDB-movie-api-project.git",
     // live: "https://google.com",
-    id: 3,
+    id: 4,
   },
 ];
 
