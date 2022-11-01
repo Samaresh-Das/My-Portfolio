@@ -29,6 +29,7 @@ export const BlogCard = styled.div`
   transition: 0.4s;
   &:hover {
     width: 450px;
+    padding: 0 22px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
