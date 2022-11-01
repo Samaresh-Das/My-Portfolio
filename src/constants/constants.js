@@ -10,6 +10,16 @@ export const projects = [
     id: 0,
   },
   {
+    title: "Sam's Tech Store",
+    description:
+      "It uses Next Js, Context API, Sanity(for CMS), React-Icons, CSS. An e-commerce site for tech related stuffs with cart functionality. All the item data come from Sanity Content Management System",
+    image: "/images/6.png",
+    tags: ["Next JS", "React-Icons", "Sanity IO", "CSS"],
+    code: "https://github.com/Samaresh-Das/Sam-s-Tech-Store-Eccomerce",
+    live: "https://sam-s-tech-store.netlify.app/",
+    id: 1,
+  },
+  {
     title: "E-commerce",
     description:
       "A simple e-commerce page with some items listed from dummy data and cart functionality.",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["React/Redux", "React-Router", "React-Icons", "Bootstrap", "CSS"],
     code: "https://github.com/Samaresh-Das/eccomerce-page.git",
     live: "https://eccomerce-site.netlify.app/",
-    id: 1,
+    id: 2,
   },
   {
     title: "Bank Website",
@@ -27,7 +37,7 @@ export const projects = [
     tags: ["React", "Tailwind CSS"],
     code: "https://github.com/Samaresh-Das/Bank-React.git",
     live: "https://sam-dev-bank.pages.dev/",
-    id: 2,
+    id: 3,
   },
   {
     title: "React To-Do List",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["React Js"],
     code: "https://github.com/Samaresh-Das/React-Todo-list.git",
     live: "https://react-todo-list-dlh.pages.dev/",
-    id: 3,
+    id: 4,
   },
   {
     title: "TMDB Movie site",
@@ -47,7 +57,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JS"],
     code: "https://github.com/Samaresh-Das/TMDB-movie-api-project.git",
     // live: "https://google.com",
-    id: 4,
+    id: 5,
   },
 ];
 
