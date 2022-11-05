@@ -20,13 +20,13 @@ export const projects = [
     id: 1,
   },
   {
-    title: "E-commerce",
+    title: "Sam's Shop",
     description:
-      "A simple e-commerce page with some items listed from dummy data and cart functionality.",
+      "A shopping e-commerce page with cart functionality. Users can toggle between dark mode, change the view style of items.",
     image: "/images/5.png",
-    tags: ["React/Redux", "React-Router", "React-Icons", "Bootstrap", "CSS"],
-    code: "https://github.com/Samaresh-Das/eccomerce-page.git",
-    live: "https://eccomerce-site.netlify.app/",
+    tags: ["React/Redux", "Context API", "React-Icons", "Bootstrap", "CSS"],
+    code: "https://github.com/Samaresh-Das/My-Shop-React.git",
+    live: "https://sams-cloth-store.netlify.app/",
     id: 2,
   },
   {

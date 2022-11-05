@@ -108,6 +108,7 @@ export const TagList = styled.ul`
   padding: 2rem;
 `;
 export const Tag = styled.li`
+  padding: 10px;
   color: #d8bfbf;
   font-size: 1.5rem;
 `;
