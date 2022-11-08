@@ -6,7 +6,7 @@ export const projects = [
     image: "/images/1.png",
     tags: ["Mongo", "Express", "EJS", "Node"],
     code: "https://github.com/Samaresh-Das/Yelp-Camp.git",
-    live: "https://sammy-camp679.herokuapp.com/campgrounds",
+    live: "https://sammy-camp.cyclic.app/",
     id: 0,
   },
   {
