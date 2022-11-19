@@ -15,6 +15,7 @@ import {
 } from "./ProjectsStyles";
 import {
   Section,
+  SectionText,
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
@@ -54,6 +55,17 @@ const Projects = () => (
         </BlogCard>
       ))}
     </GridContainer>
+    <SectionText>
+      I have many projects, these are only the best ones. To see all of them
+      click{" "}
+      <a
+        href="https://sam-all-projects.netlify.app"
+        target="_blank"
+        style={{ color: "white" }}
+      >
+        here
+      </a>
+    </SectionText>
   </Section>
 );
 
